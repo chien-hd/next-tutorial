@@ -1,0 +1,22 @@
+{
+  "explorer.compactFolders": false,
+  "search.exclude": {
+    "**/.yarn": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "vitest.commandLine": "npx vitest",
+  "typescript.tsdk": "./source_code/node_modules/typescript/lib",
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.eslintIntegration": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
