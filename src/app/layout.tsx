@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import AppProvider from '@/app/provider';
-import Sidebar from '@/components/layout/sidebar';
 
 export const metadata: Metadata = {
   title: 'Next.js Tutorial',
@@ -16,10 +15,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <AppProvider>
-          <Sidebar />
-          {children}
-        </AppProvider>
+        <AppProvider>{children}</AppProvider>
       </body>
     </html>
   );

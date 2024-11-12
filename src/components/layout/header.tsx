@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/menubar';
 import { clientSessionToken } from '@/config/http.config';
 
-const Sidebar = () => {
+const Header = () => {
   const Logout = useLogout();
   const { data: userData } = useFetchUser();
   const handleLogout = () => {
@@ -39,4 +39,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Header;
